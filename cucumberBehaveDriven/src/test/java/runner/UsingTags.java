@@ -9,6 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features="featureFiles",
 				 glue = "stepDefinitions",
 				 dryRun=true,
+				 strict=false,
 				 monochrome = true,
 				 tags={"@tagname1", "@tagname2"})  
 // {"~@SimpleLogin", "@OpenGoogle"} represents "OR" condition, and use ~ symbol to ignore the specified tagname and run all other scenarios/feature files

@@ -23,7 +23,7 @@ public class BackgroundHooks {
 		System.out.println("This should be the last message of each scenario");
 	}
 	
-	@After("@Medicine")
+	@After("@Medicine")  // tagged hooks style
 	public void afterMediScenario() {
 		System.out.println("This should be the last message of Meidicine scenario");
 	}
