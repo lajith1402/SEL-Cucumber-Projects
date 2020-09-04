@@ -11,7 +11,8 @@ import cucumber.api.junit.Cucumber;
 						  dryRun=false,
 						  strict=false,
 						  monochrome=true,
-						  tags="@BackgroundHooksExample")
+						  plugin="html://",
+						  tags= {"@BackgroundHooksExample", "~@Agri"})
 
 public class BackgroundHooksExample {
 

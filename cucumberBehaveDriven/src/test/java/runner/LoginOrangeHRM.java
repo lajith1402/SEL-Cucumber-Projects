@@ -14,6 +14,6 @@ import cucumber.api.junit.Cucumber;
 				format= {"html:report/Webreport", "json:report/jsonreport.json", "junit:report/xmlreport.xml"}) 
          // use this 'format' keyword to generate report in html, json, etc.
          // use "plugin" keyword instead of 'format' in the script
-public class OrangeHRMwithLoginData {
+public class LoginOrangeHRM {
 
 }

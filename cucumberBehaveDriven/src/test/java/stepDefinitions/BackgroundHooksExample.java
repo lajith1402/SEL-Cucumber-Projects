@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
@@ -8,10 +9,10 @@ public class BackgroundHooksExample {
 	@Given("^Should have good education$")
 	public void should_have_good_education() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    System.out.println("Background message - Should have good education");
+	    System.out.println("Background msg1 - Should have good education");
 	}
 
-	@Given("^Good knowledge$")
+	@And("^Good knowledge$")
 	public void good_knowledge() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    System.out.println("Background Msg2 - Good Knowledge");
@@ -34,20 +35,20 @@ public class BackgroundHooksExample {
 	@Then("^Get into Medical college$")
 	public void get_into_Medical_college() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    System.out.println("Join to Medical College");
+	    System.out.println("Join to Medical College - Medicine");
 	}
 
 	
 	@Given("^Student scored good marks in Maths$")
 	public void student_scored_good_marks_in_Maths() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    System.out.println("Student scored good marks in Maths");
+	    System.out.println("Student scored good marks in Maths - Engg");
 	}
 
 	@Given("^Student should pass Higher secondary$")
 	public void student_should_pass_Higher_secondary() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    System.out.println("Student should pass Higher secondary");
+	    System.out.println("Student should pass Higher secondary - Engg");
 	}
 
 	@Then("^Get into Engng college$")
@@ -63,10 +64,10 @@ public class BackgroundHooksExample {
 	    System.out.println("For Agri - Student scored good marks in Science");
 	}
 
-	@Given("^Student pass all courses$")
+	@And("^Student pass all courses$")
 	public void student_pass_all_courses() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    System.out.println("Student pass all courses");
+	    System.out.println("Student pass all courses - Agri");
 	}
 
 	@Then("^Get into Agricult college$")

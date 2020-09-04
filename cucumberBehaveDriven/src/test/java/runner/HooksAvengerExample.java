@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="featureFiles",
-				glue = {"stepDefinitions", "hooks"},  
+				glue = {"stepDefinitions" ,  "hooks"},
 				dryRun = false,
 				strict = false,
 				monochrome = true,

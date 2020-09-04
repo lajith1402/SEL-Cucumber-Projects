@@ -22,7 +22,7 @@ Scenario: Get into Engineering
 @Agri
 Scenario: Get into Agri field
 	Given Student scored good marks in Science
-	Given Student pass all courses
+	And Student pass all courses
 	Then Get into Agricult college
 	
 	

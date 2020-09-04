@@ -29,7 +29,7 @@ public class BackgroundHooks {
 	}
 	
 	
-	@Before("@Agri, @Medicine")
+	@Before("@Agri, @Medicine") // tagged hooks style
 	public void beforeAgriMedicine() {
 		System.out.println("Should run this scenario before Agri and Medicine");
 	}	

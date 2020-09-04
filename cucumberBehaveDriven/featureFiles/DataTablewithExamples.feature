@@ -8,3 +8,4 @@ Examples:
 |UserName |PassWord|
 |Admin |admin123|
 |Test12 |admin11|
+|Admin | test123|

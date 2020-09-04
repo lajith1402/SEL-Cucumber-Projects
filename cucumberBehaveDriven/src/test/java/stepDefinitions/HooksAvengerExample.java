@@ -26,5 +26,23 @@ public class HooksAvengerExample {
 	}
 
 
+	@Given("^Thanos birth is defined$")
+	public void thanos_birth_is_defined() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    System.out.println("Thanos birth is defined");
+	}
+
+	@When("^Enters into the universe$")
+	public void enters_into_the_universe() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("Enters into the universe");
+	}
+
+	@When("^Destory the universe$")
+	public void destory_the_universe() throws Throwable {
+	    System.out.println("Destoryed the universe");
+	}
+
+	
 
 }

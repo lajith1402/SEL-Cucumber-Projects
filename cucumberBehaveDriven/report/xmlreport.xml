@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="49.011997">
+<testcase classname="Login to the Orange HRM site" name="Login to Orange HRM page with valid credentials" time="49.011997">
+<system-out><![CDATA[Given Open the Orange HRM URL in the browser................................passed
+When User enters valid credentials in username "Admin" and password "admin123".passed
+And click on the Submit button..............................................passed
+Then The Orange HRM page should be displayed................................passed
+]]></system-out>
+</testcase>
+</testsuite>
